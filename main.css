@@ -28,3 +28,7 @@ table th{
 table th,td{
     border-bottom: 1px solid gray;
 }
+label{
+    float: left;
+    width:100;
+}

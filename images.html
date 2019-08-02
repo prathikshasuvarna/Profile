@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>....Images.....</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script>
+        function showMessage(f){
+            if(f=="happy")
+            message="Be Happy,Enjoy your day !"
+            else if(f=="sleepy")
+            message ="avoid using phone,have light lunch and sleep early"
+            else if(f=="angry")
+            message = "avoid salt and do meditation...seek god's help"
+            document.getElementById("data").innerHTML="<h2>"+message+"</h2>"
+        }
+    </script>
+</head>
+<body>
+    <h1>How are you feeling today!</h1>
+    <div class ="row">
+        <div class="column">
+            <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/220px-SNice.svg.png" onclick="showMessage('happy')">
+            <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ZdouZ_x0fBPWCR1SZyhnrwATl7rp3zW47H7puITY5WQura0V6w"onclick="showMessage('sleepy')" >
+            <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf7qJhEtzMmyiNr6tnFQ50avllzNYV7arBWo_EPV4PPNRziTGK" onclick="showMessage('angry')">
+            
+</div>
+   </div>
+   <div id="data"></div>
+</body>
+</html>
